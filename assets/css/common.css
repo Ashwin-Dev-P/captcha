@@ -1,0 +1,43 @@
+button {
+	background-color: var(--primary-color);
+	color: #ffffff;
+	border-radius: 7px;
+}
+
+input[type="submit"] {
+	background-color: var(--primary-color);
+	color: #ffffff;
+	border-radius: 7px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.my-my-5 {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.my-w-100 {
+	width: 100%;
+}
+
+.my-p-3 {
+	padding: 3%;
+}
+
+.danger {
+	color: #ffffff;
+	background-color: red;
+}
+
+.my-success {
+	color: #ffffff;
+	background-color: green;
+}
+
+.my-blurry-text {
+	color: transparent;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}

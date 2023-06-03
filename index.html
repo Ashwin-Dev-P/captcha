@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="./assets/css/common.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="./assets/css/index.css" />
+	</head>
+	<body class="text-center">
+		<header>
+			<h1>CAPTCHA Generator</h1>
+		</header>
+		<main>
+			<div id="output"></div>
+			<div class="my-my-5">
+				<div
+					id="captcha-text"
+					class="strike my-w-100 my-p-3 my-blurry-text"></div>
+			</div>
+			<div class="my-my-5">
+				<form id="recaptcha-form">
+					<div class="my-my-5">
+						<!-- <label
+							class="my-w-100"
+							for="captcha-input"
+							>Enter the CAPTCHA
+						</label> -->
+						<input
+							type="text"
+							id="captcha-input"
+							minlength="4"
+							maxlength="4"
+							required
+							class="my-w-100 my-p-3" />
+					</div>
+					<div class="my-my-5">
+						<input
+							type="submit"
+							text="submit"
+							class="my-w-100 my-p-3" />
+						<button
+							id="generateCaptchaButton"
+							class="my-w-100 my-p-3 my-my-5"
+							type="button">
+							Regenerate CAPTCHA
+						</button>
+					</div>
+				</form>
+			</div>
+		</main>
+		<script
+			type="text/javascript"
+			src="./assets/js/generateCaptcha.js"></script>
+		<script
+			type="text/javascript"
+			src="./assets/js/index.js"></script>
+	</body>
+</html>

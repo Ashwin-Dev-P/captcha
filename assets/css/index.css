@@ -1,0 +1,39 @@
+:root {
+	--primary-color: #2175fc;
+}
+body {
+	margin: 0%;
+	background-color: gray;
+}
+
+header {
+	background-color: var(--primary-color);
+}
+
+main {
+	margin: 30% 5%;
+	box-shadow: 5px 5px;
+
+	background-color: #ffffff;
+	padding: 5%;
+	border-radius: 20px;
+}
+
+h1 {
+	margin: 0%;
+	padding: 5%;
+	color: #ffffff;
+}
+
+input[type="text"] {
+	width: 90%;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+#captcha-text {
+	font-size: 50px;
+	/* transform: rotate(-15deg); */
+}
